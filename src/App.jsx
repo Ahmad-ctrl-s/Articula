@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter, HashRouter } from 'react-router-dom';
 import './assets/css/App.css';
 import LoginForm from './main-pages/login-form';
 import SignupForm from './main-pages/signup-form';
@@ -20,7 +20,7 @@ import EditArticle from './main-pages/edit-article/edit-article';
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <UserAuthContext>
           {/* <SemanticElements> */}
             <Routes>
@@ -41,7 +41,7 @@ function App() {
             </Routes>
           {/* </SemanticElements> */}
         </UserAuthContext>
-      </BrowserRouter>
+      </HashRouter>
     </>
   )
 }
