@@ -22,18 +22,18 @@ function App() {
     <UserAuthContext>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/login' element={<LoginForm />} />
-        <Route path='/signup' element={<SignupForm />} />
-        <Route path='/Articles' element={<Articles />} />
-        <Route path='/Article/:id' element={<Article />} />
-        <Route path='/About' element={<About />} />
-        <Route path='/Contact' element={<Contact />} />
-        <Route path='/Vacancies' element={<Vacancies />} />
-        <Route path='/FAQs' element={<FAQs />} />
-        <Route path='/Create_Article' element={<CreateArticle />} />
-        <Route path='/Profile' element={<MyAccount/>} />
-        <Route path='/My_Articles' element={<MyArticles/>} />
-        <Route path='/Edit_Article/:id' element={<EditArticle/>} />
+        <Route path='login' element={<LoginForm />} />
+        <Route path='signup' element={<SignupForm />} />
+        <Route path='Articles' element={<Articles />} />
+        <Route path='Article/:id' element={<Article />} />
+        <Route path='About' element={<About />} />
+        <Route path='Contact' element={<Contact />} />
+        <Route path='Vacancies' element={<Vacancies />} />
+        <Route path='FAQs' element={<FAQs />} />
+        <Route path='Create_Article' element={<CreateArticle />} />
+        <Route path='Profile' element={<MyAccount/>} />
+        <Route path='My_Articles' element={<MyArticles/>} />
+        <Route path='Edit_Article/:id' element={<EditArticle/>} />
         <Route path='*' element={<ErrorPage />} />
       </Routes>
     </UserAuthContext>
