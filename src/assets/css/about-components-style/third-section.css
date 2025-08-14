@@ -1,0 +1,31 @@
+.third-section-wrapper {
+    background: rgba(255, 238, 232, 1);
+
+}
+
+.third-section-row {
+    width: 73%;
+    margin-inline: auto;
+}
+
+.third-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.billion {
+    font-size: 1rem;
+    color: rgba(255, 102, 54, 1);
+}
+
+@media (min-width: 0px) and (max-width: 1199px) {
+    .about-first {
+        width: 100%;
+        align-items: center;
+        padding-block: 3rem;
+    } 
+    .about-first .text-muted {
+        width: 100% !important;
+    }
+}

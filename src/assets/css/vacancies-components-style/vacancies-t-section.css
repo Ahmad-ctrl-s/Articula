@@ -1,0 +1,66 @@
+.vacancies-third-section-row {
+    width: 73%;
+    margin-inline: auto;
+}
+
+.vacancies-card-1 {
+    background-color: rgba(255, 238, 232, 1);
+}
+
+.vacancies-card-2 {
+    background-color: rgba(235, 235, 255, 1);
+}
+
+.vacancies-card-3 {
+    background-color: rgba(225, 247, 227, 1);
+}
+
+.vacancies-card-4 {
+    background-color: rgba(255, 242, 229, 1);
+}
+
+.vacancies-card-5 {
+    background-color: rgba(225, 247, 227, 1);
+}
+
+.vacancies-card-6 {
+    background-color: rgba(255, 238, 232, 1);
+}
+
+.vacancies-card-7 {
+    background-color: rgba(245, 247, 250, 1);
+}
+
+.vacancies-card-8 {
+    background-color: rgba(235, 235, 255, 1);
+}
+
+.vacancies-card-col {
+    min-height: 19vh;
+}
+
+.vacancies-card-col-text {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+@media (min-width: 1200px) {
+    .vacancies-card-col {
+        width: calc(25% - 0.75rem);
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .vacancies-card-col {
+        width: calc(33.33% - 0.75rem);
+    }
+}
+@media (min-width: 576px) and (max-width: 991px){
+    .vacancies-card-col {
+        width: calc(50% - 1.5rem);
+    }
+}
+@media (min-width: 360px) and (max-width: 575px){
+    .vacancies-card-col {
+        width: calc(100% - 0.75rem);
+    }
+}

@@ -1,0 +1,33 @@
+.fifth-child {
+    background-color: rgba(245, 247, 250, 1);
+    position: relative;
+}
+
+.fifth-wection-wrapper {
+    width: 73%;
+    margin-inline: auto;
+}
+
+.fifth-child::after {
+    content: '';
+    background-image: url("/public/About/Fifth-section/Arrow.png");
+    width: 1.5rem;
+    height: 16px;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+}
+
+.fifth-child-container a {
+    transition: all 0.3s ease-in-out;
+}
+
+.fifth-child-container a:hover {
+    color: black;
+}
+
+@media (min-width:0px) and (max-width: 991px) {
+    .fifth-container {
+        flex-direction: column;
+    }
+}

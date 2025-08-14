@@ -1,0 +1,17 @@
+/* .inbtn {
+    background-color: rgba(255, 102, 54, 1) !important;
+    color: rgba(255, 238, 232, 1) !important;
+    border: 0px;
+    border-radius: 0px;
+    padding: 0 !important;
+    width: 6rem;
+}
+
+.inbtn:hover {
+    background-color: rgba(255, 238, 232, 1) !important;
+    color: rgba(255, 102, 54, 1) !important;
+} */
+
+.inbtn {
+    width: 6rem;
+}

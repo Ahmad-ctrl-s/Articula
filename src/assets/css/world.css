@@ -1,0 +1,31 @@
+.world-wrapper {
+    box-shadow: 0px -1px 0px 0px rgba(54, 59, 71, 0.5) inset;
+    background: rgba(29, 32, 38, 1);
+    color: white !important;
+}
+
+.world-row {
+    width: 82%;
+    margin-inline: auto;
+}
+
+.world-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.cont-word {
+    color: #B7BAC7;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.the-world {
+    color: rgba(255, 102, 54, 1) !important;
+}
+
+@media (min-width:0px) and (max-width: 991px) {
+    .world-title, .cont-word {
+        text-align:start !important; 
+    }
+}

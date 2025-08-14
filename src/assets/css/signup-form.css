@@ -1,0 +1,48 @@
+.signup-lef-side {
+    background-color: rgba(235, 235, 255, 1);
+    overflow: hidden;
+}
+
+.signup-img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.signup-cred-container {
+    height: 100%;
+}
+
+.full-name-control  {
+    width: calc(50% - 0.3rem);
+}
+
+.signup-control {
+    border-radius: 0px;
+}
+
+.image-control {
+    background-color: rgba(255, 238, 232, 1);
+}
+
+.password-col {
+    width: calc(50% - 0.5rem);
+}
+
+.server-error {
+    height: fit-content !important;
+}
+
+.signup-btn {
+    background-color:  rgba(255, 238, 232, 1)!important;
+    color: rgba(255, 102, 54, 1)!important;
+}
+
+.signup-btn:hover {
+    background-color:rgba(255, 102, 54, 1)!important ;
+    color: white !important;
+}
+
+.verification-page {
+    height: 100vh;
+}

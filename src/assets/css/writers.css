@@ -1,0 +1,60 @@
+.writer-wrapper {
+    position: relative;
+    background-color: white;
+    top: -5rem;
+    width: 90%;
+    margin-inline: auto;
+    border: 1px solid rgba(233, 234, 240, 1);
+    padding-bottom: 1rem !important;
+}
+
+
+.writer-row {
+    width: 95%;
+    margin-inline: auto;
+}
+
+
+.swiper-slide {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+} 
+
+.swiper-slide:hover {
+    transform: translateY(-4px) scale(1) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+    border-radius: 1rem;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    color: rgba(255, 102, 54, 1) !important;
+}
+
+@media(min-width:360px) and (max-width: 767px) {
+    .swiper-slide {
+        width: 100% !important;
+    }
+}
+
+@media(min-width:768px) and (max-width: 991px) {
+    .swiper-slide {
+        width: 50% !important;
+        margin-right: 1rem;
+    }
+}
+@media(min-width:992px) and (max-width: 1199px) {
+    .swiper-slide {
+        width: 20% !important;
+        margin-right: 1rem;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 576px) {
+        .writer-wrapper{
+            padding: 0 !important;
+        }
+        .job-card-footer {
+            flex-direction: column;
+            align-items: center !important;
+    }
+}

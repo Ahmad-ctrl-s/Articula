@@ -1,0 +1,151 @@
+.blog-preview-card {
+  background-color: #ffffff;
+  border: 1px solid #eee;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+.blog-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.blog-content {
+  font-size: 1.1rem;
+  color: #555;
+  white-space: pre-wrap;
+}
+
+.blog-tags span {
+  font-size: 0.95rem;
+}
+
+.blog-category p {
+  font-size: 1rem;
+}
+
+.badge {
+  background-color: rgba(255, 102, 54, 1);
+}
+
+.gallery-swiper {
+  height: 40vh;
+    width:70%;
+    margin-inline: 0px;
+}
+
+.gallery-swiper-slide {
+height: 100%;
+
+  overflow: hidden;
+}
+
+.gallery-swiper-slide-img {
+  width: 100%;
+  height: 100%;
+  object-fit: 'cover';
+  border-radius: '12px';
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .create-article-container {
+  height: 200vh;
+}
+
+.article-mock-col {
+  background-color: white;
+  padding: 2rem;
+  width: calc(50% - 0.5rem) !important;
+  margin-inline: auto;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.08),
+    0 8px 12px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.3s ease;
+}
+
+.article-mock-col:hover {
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.1),
+    0 12px 16px rgba(0, 0, 0, 0.06);
+}
+
+.text-editor {
+  height: 20vh;
+}
+
+.mock-blog-title-col {
+  max-width: 100%;
+}
+
+.mock-blog-title-col h2 {
+  height: auto;
+  white-space: pre-wrap;
+}
+
+
+
+.mock-blog-content-col {
+  max-width: 100%;
+}
+
+.mock-blog-content-col p {
+  height: auto;
+  white-space: pre-wrap;
+}
+
+.mock-blog-img {
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+.article-mock-col {
+  background-color: #fff;
+  padding: 2rem;
+  width: 100%;
+  margin-inline: auto;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.08),
+    0 8px 12px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.3s ease;
+}
+
+.article-mock-col:hover {
+  box-shadow:
+    0 4px 8px rgba(0, 0, 0, 0.1),
+    0 12px 16px rgba(0, 0, 0, 0.06);
+} */

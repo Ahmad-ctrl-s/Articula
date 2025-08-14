@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="checkbox"]:checked {
+    background-color: rgba(255, 102, 54, 1);
+    border: 1px solid rgba(255, 238, 232, 1);
+    box-shadow: 0 0 0 0.25rem rgba(255, 238, 232, 1);
+}
+
+.btn {
+      height: 3rem;
+      font-size: 1rem;
+      font-weight: 600;
+      background-color: rgba(255, 238, 232, 1);
+      color: rgba(255, 102, 54, 1);
+}
+
+.btn:hover {
+    background-color: rgba(255, 102, 54, 1);
+    color: rgba(255, 238, 232, 1);
+}
+
+
+.logout-btn {
+    background-color: unset !important;
+}
+
+.logout-btn:hover {
+    color: black !important;
+}

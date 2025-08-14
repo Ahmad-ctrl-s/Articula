@@ -1,0 +1,8 @@
+.editable-section {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.editable-section:hover {
+    background-color: #f0f8ff;
+}

@@ -1,0 +1,100 @@
+.browse {
+    font-size: 40px;
+    font-weight: 600;
+}
+.card-0 {
+    background-color: rgba(235, 235, 255, 1);
+}
+
+.card-1 {
+    background-color: rgba(225, 247, 227, 1);
+}
+
+.card-2 {
+    background-color: rgba(255, 242, 229, 1);
+}
+
+.card-3 {
+    background-color: #FFF0F0;
+}
+
+.card-4 {
+    box-shadow: 1px 1px 1px 1px #1D20261A;
+}
+
+.card-5 {
+    background-color: #F5F7FA;
+}
+
+.card-6 {
+    background-color: rgba(235, 235, 255, 1);
+}
+
+.card-7 {
+    background-color: #F5F7FA;
+}
+
+.category-container {
+    width: 80%;
+    margin-inline: auto;
+    cursor: pointer;
+}
+
+.card-container {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.card-container:hover {
+    transform: translateY(-1px) scale(1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.text-container p {
+    font-size: 1rem;
+}
+
+.text-container span {
+    font-size: 12px;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4E5566;
+}
+
+@media (max-width: 575px) {
+    .card-container {
+        width: calc(100% - 20px);
+        margin-inline: 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px) {
+    .card-container {
+        width: calc(100% - 20px);
+        margin-inline: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .card-container {
+        width: calc(50% - 20px);
+        margin-inline: 10px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .card-container {
+        width: calc(33.33% - 20px);
+        margin-inline: 10px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .card-container {
+        width: calc(25% - 20px);
+        margin-inline: 10px;
+    }
+}

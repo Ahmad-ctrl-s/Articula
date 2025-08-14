@@ -1,0 +1,108 @@
+.vacancies-fourth-container {
+    background-color: rgba(245, 247, 250, 1);
+}
+
+.vacancies-fourth-section-row {
+    width: 73%;
+    margin-inline: auto;
+}
+
+.vacancies-fourth-card-col {
+    background-color: rgba(255, 255, 255, 1);
+    width: calc(50% - 0.75rem);
+    min-height: 18vh;
+    border: 1px solid rgba(233, 234, 240, 1);
+}
+
+.vacancies-card-badge-1 {
+    background-color: rgba(225, 247, 227, 1);
+    color: rgba(21, 113, 31, 1);
+}
+.vacancies-card-badge-2 {
+    background-color: rgba(255, 238, 232, 1);
+    color: rgba(153, 61, 32, 1);
+}
+.vacancies-card-badge-3 {
+    background-color: rgba(225, 247, 227, 1);
+    color: rgba(21, 113, 31, 1);
+}
+
+        .vacancies-card-badge {
+        width: 40%;
+    }
+
+.job-field {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.job-experience {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgba(78, 85, 102, 1);
+}
+
+.vacancies-fourth-card-img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.vacancies-fourth-card-row {
+    min-height: 100%;
+}
+
+.hr-row {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(233, 234, 240, 1);
+}
+
+.vacancies-fourth-card-footer {
+    min-height: auto;
+}
+
+.vacancies-fourth-card-footer col {
+    min-height: 100%;
+}
+
+@media (min-width: 0px) and (max-width: 1199px) {
+        .vacancies-card-badge {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .vacancies-fourth-card-col {
+        width: calc(50% - 0.75rem);
+    }
+}
+
+@media (max-width: 991px) {
+    .vacancies-fourth-card-col {
+        width: 100%;
+    }
+}
+
+
+
+
+
+/* @media (min-width: 0px) and (max-width:1547px) {
+    .vacancies-fourth-card-col {
+        width: 100%;
+    }
+
+    .vacancies-fourth-card-img-container {
+        width: 100%;
+    }
+    .vacancies-fourth-card-text-container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1199px) {
+    .vacancies-card-badge {
+        width: 40%;
+    }
+} */

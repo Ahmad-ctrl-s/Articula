@@ -1,0 +1,102 @@
+.teaching-wrapper {
+    background: rgba(245, 247, 250, 1);
+}
+
+.teach-sec-wrapper {
+    width: 81%;
+}
+
+.teach-left {
+    background: linear-gradient(90deg, #CC522B 0%, #FF6636 100%);
+    height: auto;
+}
+
+.teach-right {
+    height: auto;
+    background-color: white;
+}
+
+.teach-left .teach-img-wrap {
+    height: auto;
+    width: 40%;
+}
+
+.teach-left .teach-img-wrap > img {
+    height: auto;
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.teaching-title {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.functions {
+    height: auto;
+}
+
+.f-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.step {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.step-1 { 
+    background: #EBEBFF; 
+    color: #564FFD;
+}
+.step-2 { 
+    background: #FFF0F0; 
+    color: #FF6636;
+}
+.step-3 { 
+    background: #FFF0F0; 
+    color: #E34444;
+}
+.step-4 { 
+    background: #E1F7E3;
+    color: #23BD33; 
+}
+
+.btn-start {
+    width: fit-content;
+}
+
+.earning-steps {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+@media (min-width:0px) {
+    .teach-left {
+        width: calc(100% - 2rem);
+    }
+    .teach-right {
+        width: calc(100% - 2rem);
+    }
+}
+
+@media (min-width: 0px) and (max-width:440px) {
+    .teach-text-wrap {
+        padding: 1rem 0 !important;
+    }
+}
+
+@media (min-width:992px) {
+    .teach-left {
+        width: calc(50% - 2rem);
+    }
+    .teach-right {
+        width: calc(50% - 2rem);
+    }
+}

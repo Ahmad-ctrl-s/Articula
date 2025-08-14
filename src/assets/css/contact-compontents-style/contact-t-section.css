@@ -1,0 +1,40 @@
+.contact-third-section-container {
+    background-color: rgba(245, 247, 250, 1);
+}
+
+.contact-third-section-row {
+    width: 73%;
+    margin-inline: auto;
+} 
+
+.contact-form-intro {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.contact-right-col {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.information-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 102, 54, 1);
+    text-transform: uppercase;
+}
+
+.contact-information-container {
+    border-bottom: 1px solid rgba(233, 234, 240, 1);
+}
+
+.contact-btn {
+    background-color: rgba(255, 102, 54, 1);
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.contact-btn:hover {
+    background-color: rgba(255, 238, 232, 1);
+    color: rgba(255, 102, 54, 1);
+}

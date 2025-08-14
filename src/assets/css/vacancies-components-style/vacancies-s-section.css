@@ -1,0 +1,25 @@
+.Vacancies-second-section-container {
+    background-color: rgba(245, 247, 250, 1);
+}
+
+.vacancies-second-section-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.Vacancies-right-side-check-container {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(29, 32, 38, 0.05);
+}
+
+.vacancies-right-side-row-title {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.vacancies-right-side-row-desc {
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(110, 116, 133, 1);
+}

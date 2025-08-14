@@ -1,0 +1,23 @@
+.second-cards-container {
+    width: 73%;
+    margin-inline: auto;
+}
+
+@media(min-width: 576px) and (max-width: 991px) {
+    .second-cards-container {
+        flex-wrap: wrap;
+        justify-content: start !important;
+    }
+    .second-card {
+    width: 33%;
+    }
+}
+@media(min-width: 0px) and (max-width: 575px) {
+    .second-cards-container {
+        flex-wrap: wrap;
+        justify-content: start !important;
+    }
+    .second-card {
+    width: 50%;
+    }
+}

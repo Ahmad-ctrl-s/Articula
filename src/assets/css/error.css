@@ -1,0 +1,111 @@
+.error-page-img-col {
+    height: 100%;
+    overflow: hidden;
+}
+
+.error-page-img-col img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.error-404 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: rgba(233, 234, 240, 1);
+}
+
+.oops {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.went-wrong {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(78, 85, 102, 1);
+}
+
+.list-group {
+    list-style-type: none;
+}
+
+.list-group li {
+    color: black;
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+    .error-page-first-row {
+        flex-direction: column-reverse;
+        margin-top: 5rem;
+    }
+}
+
+
+
+/* .error-page-wrapper {
+    height: 100vh;
+}
+
+.error-page-container {
+    min-height: 100%;
+}
+
+.first-row {
+    min-height: auto;
+    margin-bottom: auto;
+} */
+
+
+
+
+
+
+
+
+/* .error-page-container {
+    min-height: 88vh;
+}
+
+.error-page-second-row {
+    min-height: 100%;
+}
+
+.error-page-img-col {
+    height: 100%;
+    overflow: hidden;
+}
+
+.error-page-img-col img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.error-404 {
+    font-size: 5rem;
+    font-weight: 600;
+    color: rgba(233, 234, 240, 1);
+}
+
+.oops {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.went-wrong {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(78, 85, 102, 1);
+}
+
+@media (min-width: 0px) and (max-width: 1199px) {
+    .error-page-main-row {
+        flex-direction: column-reverse;
+        margin-block: 10vh;
+    }
+
+    .error-page-container {
+        height: auto;
+    }
+} */

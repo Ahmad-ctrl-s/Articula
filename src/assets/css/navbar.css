@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100%;
+}
+
+.navbar {
+    width: 90%;
+    margin-inline: auto;
+}
+
+.navbar-wrapper {
+    width: 100%;
+    background: #1D2026;
+}
+
+.offcanvas {
+    width: 70% !important;
+    background-color: #1D2026 !important;
+}
+
+.navbar-toggler {
+    margin-left: 5px;
+    background-color: unset;
+    color: white;
+    border: none !important;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.dropdown {
+    margin-right: 5px;
+}
+
+.navbar-dropdown-toggle {
+    background-color: unset !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.dropdown-menu {
+    background-color: rgb(29, 32, 38);
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:not(.exclude):hover {
+    color: #bbbbbb !important;
+}
+
+.navbar-nav .active:not(.exclude) {
+    border-top: 2px solid rgba(255, 102, 54, 1);
+}
+
+.show .navbar-nav .active {
+    border-top: unset;
+    color: rgba(255, 102, 54, 1) !important;
+}
+
+.show .navbar-nav a {
+    text-align: start;
+}
+
+.btn-close:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 0px !important;
+}
+
+.btn-close {
+    background-color: rgba(255, 102, 54, 1) !important;
+    border: 0px !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.exclude {
+    text-decoration: none;
+}
+
+.exclude:visited {
+    text-decoration: none;
+    color: white !important;
+}
+
+.nav-link .facebook:hover {
+    color: #1877f2;
+    transition: 0.5s;
+}
+
+.nav-link .instagram:hover {
+    color: #E1306C;
+    transition: 0.5s;
+}
+
+.linkedin:hover {
+    fill: #0A66C2;
+    transition: 0.5s;
+}
+
+.twitter:hover {
+    color: #1DA1F2;
+    transition: 0.5s;
+}
+
+@media(min-width: 0px) and (max-width:991px) {
+    .navbar-nav .nav-link {
+        border: 0px !important;
+    } 
+}

@@ -1,0 +1,221 @@
+.blog-list-container {
+  min-height: 60vh;
+}
+
+.spinner-container {
+  min-height: 60vh;
+}
+
+.spinner-border {
+  background-color: rgba(255, 238, 232, 1);
+  color: rgba(255, 102, 54, 1);
+  width: 3rem;
+  height: 3rem;
+}
+
+.articles-card-wrapper {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.articles-filter {
+  background-color: rgba(245, 247, 250, 1);
+}
+
+.form-select:focus {
+  border-color: rgba(255, 102, 54, 1);
+  box-shadow: 0 0 0 .25rem rgba(255, 238, 232, 1);
+}
+
+.article-summary {
+  background-color: #f8f9fa;
+  border-left: 5px solid #ff6636;
+  padding: 10px 16px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #333;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: fit-content;
+  margin-left: auto;
+}
+
+.article-count {
+  color: #ff6636;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.article-col {
+  border-radius: 0px !important;
+}
+
+.article-card {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.article-card img {
+  max-height: 60%;
+  height: 60%;
+  max-width: 100%;
+  object-fit: fill;
+}
+
+.blog-created {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: rgba(0, 0, 0, 0.38);
+  width: fit-content;
+}
+
+.card-category-wireless {
+  background-color: #4b7bec88;
+}
+
+.card-category-Samsung {
+  background-color: #20bf6a77;
+}
+
+.card-category-socialmedia {
+  background-color: #f7b83185;
+}
+
+.card-category-iphone {
+  background-color: #eb3b5b8f;
+}
+
+.page-item {
+  height: fit-content !important;
+  margin-block: auto;
+}
+
+
+.page-item a {
+  padding: 7px;
+  border-radius: 50% !important;
+  width: 2rem;
+  text-align: center;
+  background-color: rgba(255, 238, 232, 1) !important;
+  color: rgba(255, 102, 54, 1) !important;
+  border: unset !important;
+}
+
+.page-link:focus {
+    box-shadow: unset !important;
+}
+
+.page-item.active span{
+  padding: 7px;
+  border-radius: 50% !important;
+  width: 2rem;
+  text-align: center;
+  background-color: rgba(255, 102, 54, 1) !important;
+  color: white !important;
+  border: unset !important;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeIn 0.5s ease;
+}
+
+@media (max-width: 767px) {
+  .articles-card-wrapper {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .article-card {
+    height: 80vh;
+  }
+
+  .cards-row .article-col {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .article-card {
+    height: 80vh;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .articles-card-wrapper {
+    width: 80%;
+    margin-inline: auto;
+}
+
+.articles-filter {
+    background-color: rgba(245, 247, 250, 1);
+}
+
+.article-col {
+    border-radius: 0px !important;
+}
+
+.article-card {
+    height: 50vh;
+}
+
+.article-card .article-card img {
+    height: 50%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.card {
+  animation: fadeIn 0.5s ease;
+} */

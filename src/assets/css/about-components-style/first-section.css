@@ -1,0 +1,34 @@
+.about-first-wrapper {
+    box-shadow: 0px 1px 0px 0px #E9EAF0 inset;
+}
+
+.about-first-row {
+    width: 73%;
+    margin-inline: auto;
+}
+
+.first-section-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-first {
+    height: 100%;
+    width: 80%;
+}
+
+.text-muted {
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.about-first-wrapper {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 0px) and (max-width: 1199px) {
+    .about-first-row {
+        flex-direction: column-reverse;
+        align-items: center !important;
+    }
+}

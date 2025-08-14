@@ -1,0 +1,10 @@
+.vacancies-first-section-row {
+    width: 73%;
+    margin-inline: auto;
+}
+
+.vacancies-first-section-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

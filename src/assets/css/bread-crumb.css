@@ -1,0 +1,11 @@
+.breadcrumb-wrapper {
+    background: rgba(245, 247, 250, 1) !important;
+}
+
+.path li a {
+    color: black;
+}
+
+.path > :nth-child(1) a {
+    color: rgba(0, 0, 0, 0.5);
+}

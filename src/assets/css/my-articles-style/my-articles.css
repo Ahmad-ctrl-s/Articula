@@ -1,0 +1,75 @@
+.my-articles-row {
+    width: 80%;
+    margin-inline: auto;
+    min-height: 85vh;
+}
+
+.personal-article-card {
+    max-height: 35vh;
+}
+
+.personal-article-img-container {
+    width: 45%;
+    min-width: 45%;
+    max-width: 45%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.personal-article-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+@media(min-width: 0px) and (max-width:1199px) {
+    .my-articles-row {
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    .personal-article-card-col {
+        height: 90vh;
+        margin-bottom: 2rem;
+    }
+
+    .personal-article-card {
+        flex-direction: column !important;
+        height: 100%;
+        max-height: unset;
+    }
+
+    .personal-article-img-container {
+        width: 100%;
+        max-width: unset;
+        min-height: 50%;
+        max-height: 50%;
+        overflow: hidden;
+    }
+
+    .personal-article-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .personal-articles-btn-group {
+        flex-direction: column !important;
+    }
+
+    .personal-articles-btn-group button {
+        margin-bottom: 1vh;
+    }
+}
+
+@media(min-width: 798px) and (max-width: 1199px) {
+    .personal-article-card-col {
+        height: 80vh;
+        margin-bottom: 2rem;
+    }
+
+    .personal-articles-btn-group {
+        margin-top: auto;
+    }
+}
