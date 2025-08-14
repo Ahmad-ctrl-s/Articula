@@ -1,4 +1,3 @@
-// App.jsx
 import { Routes, Route } from 'react-router-dom';
 import './assets/css/App.css';
 import LoginForm from './main-pages/login-form';
@@ -41,3 +40,4 @@ function App() {
 }
 
 export default App;
+
