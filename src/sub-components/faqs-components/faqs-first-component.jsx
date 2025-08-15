@@ -13,7 +13,7 @@ function FAQsFComponent() {
 
   useEffect(() => {
     setLoading(true)
-    fetch('https://tamkeen-dev.com/api/faq-list', {
+    fetch('https://cors-anywhere.herokuapp.com/https://tamkeen-dev.com/api/faq-list', {
       headers: { 'Content-Type': 'application/json' }
     })
       .then(response => {
